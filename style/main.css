@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Global css start */
+.container{
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+body{
+    /* height: 00vh; */
+    padding: 30px 150px;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+/* global css end */
+/* header start */
+.navbar{
+    width: 100%;
+    display: flex;
+    box-shadow: 10px;
+}
+.navbar__categories{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.navbar__logo{
+    padding-right: 30px;
+}
+.navbar__rect{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar__category__home{
+    color:#DC780B;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar__category{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 60%;
+    cursor: pointer;
+}
+.navbar__category:hover{
+    color: #B4604D;
+}
+.navbar__btn{
+    background: #DC780B;
+    border-radius: 5px;
+    border: none;
+    margin-left: 500px; 
+}
+.navbar__btn__text{
+    font-size: 16px;
+    font-weight: 400;
+    color:#FFFFFF;
+    margin: 14px 30px;
+}
+.navbar__btn__text:hover{
+    color: gray;
+}
+/* hero start */
+.hero{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.hero__text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__title{
+    width: 100%;
+    font-size: 49px;
+    font-weight: 700;
+    font-family: philosopher;
+    margin-bottom: 42px;
+}
+.hero__content{
+    width: 100%;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 70%;
+    margin-bottom: 50px;
+}
+.hero__btns{
+    display: flex;
+    gap: 30px;
+}
+.hero__btn{
+    padding: 20px 40px;
+    background: #DC780B;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn__content{
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.hero__link{
+    padding: 20px 40px;
+    color: #DC780B;
+    border-radius: 5px;
+    border: 1px solid #f0ddc8;
+    background: transparent;
+}
+.hero__img{
+    width: 50%;
+    text-align: right;
+}
+/* hero end */
+/* features start */
+.features{
+    width: 100%;
+}
+.features__top{
+    font-weight: 500;
+    text-align: center;
+    opacity: 70%;
+    color: #DC780B;
+    text-transform: uppercase;
+}
+.features__title{
+    font-family: Philosopher;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 7px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.features__items{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+.features__item{
+    width: 300px;
+    text-align: center;
+}
+.features__text{
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    color: #150C01;
+    margin-top: 33px;
+}
+.features__content{
+    font-family: roboto;
+    font-weight: 400;
+    opacity: 70%;
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 15px;
+}
+/* features end */
+/* box srart */
+.box{
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 110px;
+}
+.box__img{
+    width: 50%;
+}
+.box__text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box__top{
+    font-weight: 500;
+    opacity: 70%;
+    color: #DC780B;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.box__title{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: philosopher;
+    margin-bottom: 30px;
+}
+.box__content{
+    width: 90%;
+    font-family: roboto;
+    font-weight: 500;
+    opacity: 70%;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.box__btns{
+    display: flex;
+    gap: 30px;
+}
+.box__btn{
+    padding: 20px 40px;
+    background: #DC780B;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* box end */
+.menu{
+    width: 100%;
+    height: 1220px;
+}
+.menu__top{
+    font-weight: 500;
+    text-align: center;
+    opacity: 70%;
+    color: #DC780B;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+.menu__title{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: philosopher;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.menu__text{
+    width: 700px;
+    font-weight: 400;
+    opacity: 70%;
+    font-family: roboto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.menu__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.wrapper__item{
+    width: 370px;
+    background: white;
+    box-shadow: 0 0 2px gray;
+}
+.wrapper__img{
+    width: 100%;
+    /* height: 264px; */
+    text-align: center;
+    border-radius: 90px 10px 90px 0;
+}
+.content__top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+.content__title{
+    font-family: philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    color: #150C01;
+}
+.content__price{
+    font-family: philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    color: #150C01;
+}
+.wrapper__text{
+    font-weight: 400;
+    font-family: roboto;
+    opacity: 70%;
+    color: #150C01;
+    padding: 0 25px;
+    padding-bottom: 20px;
+}
+.wrapper__btn{
+    width: 36px;
+    padding: 11px;
+    margin: 0 0 25px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #DC780B;
+    color: #FFFFFF;
+}
+.wrapper__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.item__stars{
+    margin-right: 25px;  
+}
+.bottom__btn{
+    border: none;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 20px;
+    text-decoration: none;
+    background: transparent;
+    color: #DC780B;
+    opacity: 0.9;
+    padding: 5px;
+    box-shadow: 0 0 1px gray;    
+    border-radius: 5px;
+}
+.app{
+    display: flex;
+    background: #FBF1E7;
+    margin-bottom: 220px;
+    margin-top: 170px;
+}
+.app__img{
+    width: 50%;
+}
+.app__img__svg{
+    border-radius: 50px;
+    box-shadow: 0 0 20px pink;
+    margin: 50px;
+}
+.app__text{
+    width: 50%;
+    margin: 110px 125px 125px 240px;
+}
+.app__top{
+    font-weight: 500;
+    opacity: 70%;
+    color: #DC780B;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.app__title{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: philosopher;
+    color: #150C01;
+    margin-bottom: 30px;
+}
+.app__content{
+    width: 90%;
+    font-family: roboto;
+    font-weight: 400;
+    opacity: 70%;
+    margin-bottom: 40px;
+    color: #150C01;
+    opacity: 70%;
+}
+.app__btns{
+    display: flex;
+    gap: 30px;
+}
+.app__store{
+    background: #150C01;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex; 
+    width: 163px;
+}
+.app__play{
+    background: #FBF1E7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex; 
+    width: 163px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.app__store__text{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: roboto;
+    margin: 13px 0;
+}
+.app__play__text{
+    color: #150C01;
+    font-weight: 500;
+    font-family: roboto;
+    margin: 13px 0;
+}
+.testimonial{
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+.test__top{
+    font-weight: 500;
+    opacity: 70%;
+    color: #DC780B;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.test__title{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: philosopher;
+    color: #000000;
+    margin-bottom: 23px;
+}
+.test__text{
+    width: 750px;
+    font-family: roboto;
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 70px;
+}
+.test__img{
+    width: 50px;
+    margin-bottom: 42px;
+}
+.test__content{
+    font-family: roboto;
+    width: 500px;
+    color: #000000;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.test__name{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: roboto;
+    margin-top: 32px;
+    color: #000000;
+}
+.test__bottom{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 70%;
+    margin-top: 6px;
+    color: #000000;
+    margin-bottom: 120px;
+}
+.contact{
+    width: 100%;
+    background: #FBF1E7;   
+    text-align: center;
+    padding: 115px;
+}
+.contact__top{
+    font-weight: 500;
+    opacity: 70%;
+    color: #DC780B;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.test__title{
+    width: 750px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: philosopher;
+    color: #000000;
+}
+.contact__box{
+    width: 700px;
+    /* height: 75px; */
+    border-radius: 10px;
+    background: white;
+    margin: auto;
+    margin-top: 25px;
+}
+.contact__input{
+    width: 70%;
+    border: none;
+    padding: 32px;
+    background: transparent;
+}
+.contact__btn{
+    width: 28%;
+    height: 75px;
+    border-radius: 10px;
+    background: #DC780B;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    background: #3F4255;
+    padding: 135px 0;
+ 
+}
+.footer__wrapper{
+    display: flex;
+    margin-top: 50px;
+    padding: 20px 50px;
+    color: #FFFFFF;
+    gap: 30px;
+}
+.logo__text{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 25px;
+    font-size: 14px;
+    opacity: 70%;
+}
+.footer-item__title{   
+    font-size: 18px;
+    font-weight: 700;
+    font-family: philosopher;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer__category{
+    list-style: none;
+    font-size: 14px;
+    opacity: 70%;
+    color: #FFFFFF;
+}
+.footer__categories{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.category__apps{
+    display: flex;
+    gap: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
